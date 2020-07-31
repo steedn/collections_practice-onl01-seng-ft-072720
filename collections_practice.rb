@@ -33,3 +33,4 @@ def find_a(array)
   array.select{ |word|
     word.start_with(a)
   }
+end
