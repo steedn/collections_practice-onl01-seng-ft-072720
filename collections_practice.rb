@@ -42,3 +42,12 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  new_array = []
+  array.each do |name|
+    new_array << name.insert(-1, "s")
+  end
+  new_array
+end
+    
