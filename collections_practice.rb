@@ -26,4 +26,5 @@ def kesha_maker(array)
   array.each do |word|
     new_array << word.insert(3, "$")
   end
+  new_array
 end
